@@ -57,3 +57,15 @@ body{
     left: 0;
     min-height:300px;
 }
+
+.modal-content {
+    color: #000;
+}
+
+#carouselButton
+{
+    right: 0px;
+    position: absolute;
+    bottom:0px;
+    z-index: 1;
+}
