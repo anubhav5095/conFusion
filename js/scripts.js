@@ -13,14 +13,13 @@ $(document).ready(function(){
             $('#carouselButton').children('span').removeClass('fa-play');
             $('#carouselButton').children('span').addClass('fa-pause');
         }
-
-        // for Modal
-        $('#reserveButton').click(function(){
-            $("#reserveTable").modal("show");
-        });
-        $('#loginButton').click(function(){
-            $("#loginModal").modal("show");
-        });
+    });
+    // for Modal
+    $('#reserveButton').click(function(){
+        $("#reserveTable").modal("toggle");
+    });
+    $('#loginButton').click(function(){
+        $("#loginModal").modal("toggle");
     });
 });
 
